@@ -2,7 +2,7 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/go
 {
   "name": "Go",
-  "image": "ghcr.io/forky01/devcontainer-proj1:1.0",
+  "image": "ghcr.io/forky01/devcontainer-proj1:latest",
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
   "workspaceFolder": "/workspace"
 }
