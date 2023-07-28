@@ -4,9 +4,7 @@
   "name": "Go",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
   // ghcr.io/dbt-labs/dbt-bigquery:1.5.1
-  "build": {
-    "dockerfile": "mcr.microsoft.com/devcontainers/go:0-1.20"
-  },
+  "image": "mcr.microsoft.com/devcontainers/go:0-1.20",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {
       "installDirectlyFromGitHubRelease": true,
