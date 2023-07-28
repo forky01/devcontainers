@@ -21,4 +21,5 @@ jobs:
         with:
           imageName: ghcr.io/forky01/devcontainer-proj1:1.0
           cacheFrom: ghcr.io/forky01/devcontainer-proj1:1.0
+          subFolder: container-images/project1
           push: always
