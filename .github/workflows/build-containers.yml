@@ -19,7 +19,7 @@ jobs:
       - name: Prebuild image
         uses: devcontainers/ci@v0.3
         with:
-          imageName: ghcr.io/forky01/devcontainer-proj1:1.0
-          cacheFrom: ghcr.io/forky01/devcontainer-proj1:1.0
+          imageName: ghcr.io/forky01/devcontainer-proj1
+          cacheFrom: ghcr.io/forky01/devcontainer-proj1
           subFolder: container-images/project1
           push: always
